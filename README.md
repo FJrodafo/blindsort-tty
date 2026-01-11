@@ -1,4 +1,5 @@
-# blindsort-tty
+# <img src="https://hits.sh/github.com//m3tozz/blindsort-tty.svg?label=views&color=007ec6"  align="right"/><p><center>blindsort-tty</center>
+
 a simple terminal-based number sorting game
 
 <img width="761" height="202" alt="resim" src="https://github.com/user-attachments/assets/049c1a55-ced1-472f-a963-61cd32458b2b" />
