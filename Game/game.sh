@@ -29,11 +29,25 @@ case "$1" in
         ;;
 esac
 
-CYAN="\e[36m"
+# Colors
+RESET="\e[0m"
+BLACK="\e[30m"
 RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
-RESET="\e[0m"
+BLUE="\e[34m"
+MAGENTA="\e[35m"
+CYAN="\e[36m"
+WHITE="\e[37m"
+BOLD="\e[1m"
+BOLDBLACK="\e[90m"
+BOLDRED="\e[91m"
+BOLDGREEN="\e[92m"
+BOLDYELLOW="\e[93m"
+BOLDBLUE="\e[94m"
+BOLDMAGENTA="\e[95m"
+BOLDCYAN="\e[96m"
+BOLDWHITE="\e[97m"
 
 while true; do
     read -p "Enter number of positions (e.g., 6): " max_positions
@@ -123,7 +137,7 @@ done
 
 echo
 if (( is_sorted == 1 )); then
-    echo -e "${GREEN}Congratulations! Positions are in ascending order.${RESET}"
+    echo -e "${BOLDGREEN}Congratulations! ${GREEN}Positions are in ascending order.${RESET}"
 else
-    echo -e "${RED}Positions are not in ascending order. Game over.${RESET}"
+    echo -e "${RED}Positions are not in ascending order. ${BOLDRED}Game over.${RESET}"
 fi
