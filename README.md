@@ -23,7 +23,7 @@ A simple terminal-based number sorting game, written in shell scripting, powered
 
 ## Attribution
 
-Forked from [m3tozz/blindsort-tty](https://github.com/m3tozz/blindsort-tty)
+Forked from [m3tozz/blindsort-tty](https://github.com/m3tozz/blindsort-tty) without any license, CC0-1.0 license applied by default.
 
 Game originally designed by [m3tozz](https://github.com/m3tozz)
 
