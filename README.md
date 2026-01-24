@@ -1,3 +1,7 @@
+# BlindSort
+
+A simple terminal-based number sorting game!
+
 ## Index
 
 1. [Introduction](#introduction)
